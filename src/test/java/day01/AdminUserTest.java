@@ -6,11 +6,11 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class AdminUserTest {
 
-    AdminUser adminUser=new AdminUser("blabla", "karoly");
+    AdminUser adminUser=new AdminUser("johndoe@gmail.com", "123456");
 
     @Test
     void testGetEmail(){
-        assertEquals("blabla",adminUser.getUserEmail());
+        assertEquals("johndoe@gmail.com",adminUser.getUserEmail());
     }
 
     @Test
